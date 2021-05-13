@@ -1,0 +1,15 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 40px;
+}
+
+.display > h3, .display > p {
+    font-size: 1.8rem;
+    margin: 15px 0;
+}
+.display > svg {
+    color: #1A84B0;
+}

@@ -1,0 +1,13 @@
+.inputs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
