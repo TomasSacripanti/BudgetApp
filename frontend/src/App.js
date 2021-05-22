@@ -8,8 +8,10 @@ function App() {
     <Router>
       <Navbar></Navbar>
       <div className="container-fluid">
-        <Route path="/" exact component={BudgetList}></Route>
-        <Route path="/budget" component={Budget}></Route>
+        <Route path="/" exact render={(props) => {
+          <BudgetList {...props}  />
+        }} />
+        <Route path="/budget" component={Budget} />
       </div>
     </Router>
   );
